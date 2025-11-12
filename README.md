@@ -17,10 +17,10 @@ JSON/TXT для БД <br>
 
 ## Что представляет из себя данный продукт: 
 Веб-айт в котором пользователь проходит регистрацию, после чего он проходит регистрацию и может начать вводить свое постоянное расписание, а так же добавлять заметки, если нужно что то напомнить в этот день.
-<img width="250" height="1351" alt="image" src="https://github.com/user-attachments/assets/2ea9f5a5-998f-41ed-97c6-0bf5e26e2cce" />
-<img width="250" height="1382" alt="image" src="https://github.com/user-attachments/assets/e74ee40a-5ff6-487a-9453-5e57b96a8fad" />
-<img width="250" height="1694" alt="image" src="https://github.com/user-attachments/assets/aa98bc8c-1b67-452e-baac-4d59e98ed53a" />
-<img width="250" height="1692" alt="image" src="https://github.com/user-attachments/assets/24b5ac4d-28fe-42e9-a53e-3399be33f65f" />
+<img width="300" height="1351" alt="image" src="https://github.com/user-attachments/assets/2ea9f5a5-998f-41ed-97c6-0bf5e26e2cce" />
+<img width="300" height="1382" alt="image" src="https://github.com/user-attachments/assets/e74ee40a-5ff6-487a-9453-5e57b96a8fad" />
+<img width="300" height="1694" alt="image" src="https://github.com/user-attachments/assets/aa98bc8c-1b67-452e-baac-4d59e98ed53a" />
+<img width="300" height="1692" alt="image" src="https://github.com/user-attachments/assets/24b5ac4d-28fe-42e9-a53e-3399be33f65f" />
 
 ## Как запустить проект
 

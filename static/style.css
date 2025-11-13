@@ -1,0 +1,381 @@
+/* ================================
+   🌸 ОСНОВНОЙ СТИЛЬ САЙТА MYPLANNER
+   ================================ */
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  background: #f8f6f5;
+  color: #433b3b;
+}
+
+/* ===== ШАПКА САЙТА ===== */
+.site-header {
+  background: #fff;
+  border-bottom: 1px solid #f0e2e0;
+  padding: 12px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.header-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+  color: #433b3b;
+  letter-spacing: 0.5px;
+}
+
+.logout-btn, .edit-btn {
+  background: #eac5c1;
+  color: #433b3b;
+  text-decoration: none;
+  padding: 9px 18px;
+  border-radius: 10px;
+  border: 1px solid #f0d2cf;
+  font-size: 15px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.logout-btn:hover, .edit-btn:hover {
+  background: #d9b3ae;
+  transform: translateY(-1px);
+}
+
+.theme-btn {
+  display: none;
+}
+
+/* ===== FLASH-СООБЩЕНИЯ ===== */
+.flash-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.flash-msg {
+  background: #fff3f0;
+  border: 1px solid #f0d2cf;
+  border-radius: 8px;
+  padding: 10px 14px;
+  color: #433b3b;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* ===== СТРАНИЦЫ АВТОРИЗАЦИИ ===== */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f8f6f5;
+}
+
+.auth-box {
+  background: #ffffff;
+  border: 1px solid #f0e2e0;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  padding: 30px 40px;
+  width: 360px;
+  text-align: center;
+}
+
+.auth-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #433b3b;
+  font-weight: 600;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.auth-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #555;
+  text-align: left;
+}
+
+.auth-form input {
+  margin-top: 6px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+  transition: border-color 0.2s;
+}
+
+.auth-form input:focus {
+  outline: none;
+  border-color: #d3a6a2;
+  box-shadow: 0 0 0 2px rgba(211,166,162,0.3);
+}
+
+.auth-btn {
+  background: #eac5c1;
+  border: none;
+  color: #433b3b;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.auth-btn:hover {
+  background: #d9b3ae;
+}
+
+.auth-switch {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #777;
+}
+
+.auth-switch a {
+  color: #d38a85;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.auth-switch a:hover {
+  text-decoration: underline;
+}
+
+/* ===== ОНБОРДИНГ (ввод расписания) ===== */
+.onboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  background: #f8f6f5;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.onboard-box {
+  background: #ffffff;
+  border: 1px solid #f0e2e0;
+  border-radius: 18px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  padding: 30px 40px;
+  width: 680px;
+  text-align: center;
+}
+
+.onboard-title {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #433b3b;
+}
+
+.onboard-subtitle {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.onboard-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.onboard-day textarea {
+  margin-top: 6px;
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 15px;
+  resize: vertical;
+  font-family: inherit;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.onboard-day textarea:focus {
+  outline: none;
+  border-color: #d3a6a2;
+  box-shadow: 0 0 0 2px rgba(211, 166, 162, 0.3);
+}
+
+.onboard-btn {
+  margin-top: 20px;
+  background: #eac5c1;
+  border: none;
+  color: #433b3b;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.onboard-btn:hover {
+  background: #d9b3ae;
+}
+
+/* ===== DASHBOARD (основная страница) ===== */
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: calc(100vh - 60px);
+  background: #f8f6f5;
+  padding: 30px 0;
+}
+
+.dashboard-box {
+  background: #ffffff;
+  border: 1px solid #f0e2e0;
+  border-radius: 18px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  padding: 30px 40px;
+  width: 780px;
+  text-align: center;
+}
+
+.dashboard-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #433b3b;
+  margin-bottom: 20px;
+}
+
+/* Календарь */
+.calendar-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.calendar {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.calendar th {
+  padding: 5px;
+  font-weight: 500;
+  color: #433b3b;
+}
+
+.calendar td {
+  text-align: center;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.calendar td:hover {
+  background: #f6e9e7;
+}
+
+.calendar td.active {
+  background: #eac5c1;
+  color: #433b3b;
+  font-weight: 600;
+}
+
+.calendar td.other-month {
+  color: #bbb;
+}
+
+/* ===== Вкладки ===== */
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.tab {
+  border: none;
+  background: #f4e7e6;
+  color: #433b3b;
+  padding: 12px 28px;
+  margin: 0 8px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.tab.active,
+.tab:hover {
+  background: #eac5c1;
+  transform: translateY(-1px);
+}
+
+.tab-content {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.content {
+  display: none;
+}
+
+.content.active {
+  display: block;
+}
+
+/* ===== КАРТОЧКА ДЛЯ РАСПИСАНИЯ И ЗАМЕТОК ===== */
+.card-box {
+  background: #fff;
+  border: 1px solid #f0e2e0;
+  border-radius: 14px;
+  padding: 20px 25px;
+  margin-top: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* ===== ПОЛЕ ЗАМЕТОК ===== */
+.note-input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 15px;
+  resize: vertical;
+  font-family: inherit;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.note-input:focus {
+  outline: none;
+  border-color: #d3a6a2;
+  box-shadow: 0 0 0 2px rgba(211,166,162,0.3);
+}
+.onboard-day h3 {
+  color: #1d1c1c;                /* Мягкий тёплый тёмно-коричневый оттенок, не чёрный */
+  margin-bottom: 6px;            /* Чуть больше воздуха снизу */
+  text-transform: capitalize;    /* Первая буква заглавная, остальные обычные */
+  font-weight: 600;
+  font-size: 15px;               /* Чуть крупнее и читаемее */
+  letter-spacing: 0.5px;         /* Лёгкое расстояние между буквами */
+  font-family: 'Poppins', 'Inter', sans-serif; /* Округлый, современный шрифт */
+  transition: color 0.2s ease, transform 0.2s ease;
+}

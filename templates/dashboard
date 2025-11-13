@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="dashboard-container">
+  <div class="dashboard-box">
+    <h2 class="dashboard-title">Моё расписание</h2>
+
+    <div class="calendar-header">
+      <button class="arrow left" id="prev-month">❮</button>
+      <span class="month" id="month-label">Ноябрь 2025</span>
+      <button class="arrow right" id="next-month">❯</button>
+    </div>
+
+    <table class="calendar">
+      <thead>
+        <tr>
+          <th>Пн</th><th>Вт</th><th>Ср</th><th>Чт</th><th>Пт</th><th>Сб</th><th>Вс</th>
+        </tr>
+      </thead>
+      <tbody id="calendar-body"></tbody>
+    </table>
+
+    <div class="tabs">
+      <button class="tab active" id="tab-schedule">Расписание</button>
+      <button class="tab" id="tab-notes">Заметки +</button>
+    </div>
+
+    <div class="tab-content card-box">
+      <div class="content active" id="schedule">
+        <h3 id="schedule-date">Дата: —</h3>
+        <div id="schedule-list"></div>
+      </div>
+
+      <div class="content" id="notes">
+        <h3 id="notes-date">Дата: —</h3>
+        <ul id="notes-list"></ul>
+        <textarea id="noteInput" placeholder="Введите заметку..." class="note-input"></textarea>
+        <button id="addNoteBtn" class="auth-btn" style="margin-top:10px;">Добавить заметку</button>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

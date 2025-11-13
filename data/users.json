@@ -1,0 +1,209 @@
+[
+  {
+    "username": "ksenia",
+    "password_hash": "scrypt:32768:8:1$OpwAaXMsBzfuuYmz$e4355fe57bb9068ce74249511d6930bd217c3fd6e199d7382908b5e6e5c4115d80d7d2630a4379c9cd96a99223ec328bdab605a782deb0167c3c4367f49b6279",
+    "weekly_schedule": {
+      "monday": [],
+      "tuesday": [],
+      "wednesday": [],
+      "thursday": [],
+      "friday": [],
+      "saturday": [
+        {
+          "time": "",
+          "text": "jkbbkjbkjb"
+        }
+      ]
+    },
+    "notes": {
+      "2025-11-11": [
+        {
+          "text": "ghbj",
+          "created": "2025-11-11T12:09:43.761526"
+        },
+        {
+          "text": "jfnvjdn",
+          "created": "2025-11-11T12:09:46.513871"
+        },
+        {
+          "text": "bnfknb",
+          "created": "2025-11-11T12:09:48.580125"
+        },
+        {
+          "text": "fkjnbknb",
+          "created": "2025-11-11T12:09:51.058427"
+        },
+        {
+          "text": "jvkjvk",
+          "created": "2025-11-11T12:21:40.166558"
+        }
+      ],
+      "2025-11-15": [
+        {
+          "text": "плпло",
+          "created": "2025-11-11T12:40:30.307510"
+        },
+        {
+          "text": "иоилдо",
+          "created": "2025-11-11T12:40:33.768038"
+        }
+      ]
+    }
+  },
+  {
+    "username": "true",
+    "password_hash": "scrypt:32768:8:1$b9PSfCCLwv15DrZr$406cddb6c3e11234c69fef07fd5cb7ed89d1de5b94059796ebba753b752b6121369bca53cf8065eb953f97b3048f81ccbb3ec442659ab6913cf357c6fe8d6588",
+    "weekly_schedule": {
+      "monday": [
+        {
+          "time": "",
+          "text": "сон"
+        }
+      ],
+      "tuesday": [
+        {
+          "time": "",
+          "text": "подъём"
+        }
+      ],
+      "wednesday": [
+        {
+          "time": "",
+          "text": "обед"
+        }
+      ],
+      "thursday": [
+        {
+          "time": "",
+          "text": "завтрак"
+        }
+      ],
+      "friday": [
+        {
+          "time": "10:00",
+          "text": "Пары"
+        }
+      ],
+      "saturday": [
+        {
+          "time": "",
+          "text": "сто"
+        }
+      ],
+      "sunday": []
+    },
+    "notes": {
+      "2025-11-21": [
+        {
+          "text": "кикикикеукку",
+          "created": "2025-11-12T13:39:00.901777"
+        }
+      ]
+    }
+  },
+  {
+    "username": "dura",
+    "password_hash": "scrypt:32768:8:1$pbGfRlWmGsBFc1OX$c718c5d293eb5d79dc6d14f9feb632f6e014815bf6b1409ca3b746b602e31f8d2be98c20d68ac3587afe2287c572226d690283d7d91c08e5b0ce36737c46ed95",
+    "weekly_schedule": {
+      "sunday": [
+        {
+          "time": "",
+          "text": "покушать"
+        }
+      ],
+      "monday": [
+        {
+          "time": "",
+          "text": "пары"
+        }
+      ],
+      "tuesday": [
+        {
+          "time": "",
+          "text": "егэ"
+        }
+      ],
+      "wednesday": [
+        {
+          "time": "",
+          "text": "сон"
+        },
+        {
+          "time": "",
+          "text": "ариаолмилоа"
+        }
+      ],
+      "thursday": [
+        {
+          "time": "",
+          "text": "обед"
+        },
+        {
+          "time": "",
+          "text": "rbv"
+        }
+      ],
+      "friday": [
+        {
+          "time": "",
+          "text": "gjuekznm"
+        },
+        {
+          "time": "",
+          "text": "vbirjbvir"
+        },
+        {
+          "time": "",
+          "text": "gjkbrjgb"
+        },
+        {
+          "time": "",
+          "text": "bvjrbvi"
+        }
+      ],
+      "saturday": []
+    },
+    "notes": {
+      "2025-11-13": [
+        {
+          "text": "jbljb",
+          "created": "2025-11-13T12:15:27.534349"
+        }
+      ]
+    }
+  },
+  {
+    "username": "123",
+    "password_hash": "scrypt:32768:8:1$HjfW8CCqi0zfN2Ey$9247111b01fcd5efbfdb3622e8225124a72ef5037ab6152493a5473c70c3c690e5ec46315dc1cd31d5e2a86e49fa8d784e0145715c6f09b18f7e16cc008cb4a0",
+    "weekly_schedule": {
+      "sunday": [
+        {
+          "time": "",
+          "text": "12345"
+        }
+      ],
+      "monday": [
+        {
+          "time": "",
+          "text": "678910"
+        }
+      ],
+      "tuesday": [],
+      "wednesday": [],
+      "thursday": [
+        {
+          "time": "",
+          "text": "11"
+        }
+      ],
+      "friday": [],
+      "saturday": [
+        {
+          "time": "",
+          "text": "34"
+        }
+      ]
+    },
+    "notes": {}
+  }
+]

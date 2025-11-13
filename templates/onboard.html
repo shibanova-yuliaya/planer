@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="onboard-container">
+  <div class="onboard-box">
+    <h2 class="onboard-title">Настрой свое расписание</h2>
+    <p class="onboard-subtitle">Заполни расписание для каждого дня недели (Понедельник–Воскресенье)</p>
+
+    <form method="post" class="onboard-form">
+      {% for d in weekdays %}
+      <div class="onboard-day">
+        {% if d == 'monday' %}
+          <h3>Вторник</h3>
+        {% elif d == 'tuesday' %}
+          <h3>Среда</h3>
+        {% elif d == 'wednesday' %}
+          <h3>Четверг</h3>
+        {% elif d == 'thursday' %}
+          <h3>Пятница</h3>
+        {% elif d == 'friday' %}
+          <h3>Суббота</h3>
+        {% elif d == 'saturday' %}
+          <h3>Воскресенье</h3>
+        {% elif d == 'sunday' %}
+          <h3>Понедельник</h3>
+        {% endif %}
+
+        <textarea
+          name="{{ d }}"
+          rows="4"
+          placeholder="09:00 - Пары&#10;14:00 - Самоподготовка"
+        >{% if schedule.get(d) %}
+{% for it in schedule.get(d) %}
+{% if it is mapping %}{{ (it.time ~ ' - ' if it.time else '') ~ it.text }}
+{% else %}{{ it }}
+{% endif %}
+{% endfor %}
+{% endif %}</textarea>
+      </div>
+      {% endfor %}
+
+      <button type="submit" class="onboard-btn">Сохранить расписание</button>
+    </form>
+  </div>
+</div>
+{% endblock %}

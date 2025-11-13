@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="auth-container">
+  <div class="auth-box">
+    <h2 class="auth-title">Регистрация</h2>
+    <form method="post" class="auth-form">
+      <label>
+        Логин
+        <input type="text" name="username" required placeholder="Придумайте логин">
+      </label>
+      <label>
+        Пароль
+        <input type="password" name="password" required placeholder="Придумайте пароль">
+      </label>
+      <button type="submit" class="auth-btn">Зарегистрироваться</button>
+    </form>
+    <p class="auth-switch">
+      Уже есть аккаунт? <a href="{{ url_for('login') }}">Войти</a>
+    </p>
+  </div>
+</div>
+{% endblock %}
